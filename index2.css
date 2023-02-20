@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.header{
+    margin: auto;
+    width: 90%;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+}
+.button {
+    color: aliceblue;
+    background-color: rgb(66, 18, 18);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .button:hover{
+    background-color: pink;
+    color: black;
+  }
+a{
+    text-decoration: none;
+}
+body{
+    background-image: url(kepek/background2.jpg);
+    background-size: cover;
+}
+.comic{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    font-family:'Comic Sans', cursive;
+    padding:1vmin;
+}
+
+.panel{
+    display: inline-block;
+    flex: 1;
+    height: 250px;
+    min-width: 400px;
+    border:solid 2px #e0cccc;
+    box-shadow: 0 6px 6px -6px rgb(0, 0, 0);
+    margin:1vmin;
+    overflow:hidden;
+    position:relative;
+}
+.panel :nth-child(1){
+flex-basis: 500px;
+}
+.div1{
+    background-image: url(kepek/Kepregeny1.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.panel :nth-child(2){
+flex-basis: 300px;
+}
+.div2{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(kepek/Kepregeny2.png);
+}
+.panel :nth-child(3){
+    flex-basis: 300px;
+}
+.div3{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(kepek/Kepregeny3.png);
+}
+.panel :nth-child(4){
+    flex-basis: 500px;
+}
+.div4{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(kepek/Kepregeny4.png);
+}
+.panel :nth-child(5){
+    flex-basis: 300px;
+}
+.div5{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(kepek/Kepregeny5.png);
+}
+.panel :nth-child(6){
+    flex-basis: 300px;
+}
+.div6{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(kepek/Kepregeny6.png);
+}
+.panel :nth-child(7){
+    flex-basis: 500px;
+}
+.div7{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(kepek/Kepregeny7.png);
+}
+.panel :nth-child(8){
+    flex-basis: 300px;
+}
+.div8{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(kepek/Kepregeny8.png);
+}
+.panel :nth-child(9){
+    flex-basis: 300px;
+}
+.div9{
+    background-size: cover ;
+  background-blend-mode: normal;
+    background-image: url(kepek/Kepregeny10.png);
+}
+.panel :nth-child(10){
+    flex-basis: 500px;
+}
+.div10{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(kepek/Kepregeny11.png);
+}
+.panel :nth-child(11){
+    flex-basis: 500px;
+}
+.div11{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(kepek/Kepregeny12.png);
+}
