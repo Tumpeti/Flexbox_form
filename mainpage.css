@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(kepek/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+  }
+  button{
+    background-color: pink;
+    padding: 5px;
+    text-align: center;
+  }
+  main{
+    width: 80%;
+    margin: auto;
+  }
