@@ -49,3 +49,56 @@ main header h1, form {
     display: flex;
     justify-content: space-around;
 }
+
+.flex1{
+  display: flex;
+  flex-direction: column;
+}
+
+.box1{
+  background-color: pink;
+  width: 300px;
+  border-radius: 40px;
+  text-align: center;
+  margin: 10px;
+}
+
+.flex2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.box2{
+  background-color: rgb(226, 43, 214);
+  width: 300px;
+  border-radius: 40px;
+  text-align: center;
+  padding: 30px;
+  margin: 10px;
+
+}
+
+.flex3{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.box3{
+  background-color: blueviolet;
+  width: 300px;
+  border-radius: 40px;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+}
+
+.box4{
+  background-color: pink;
+  width: 300px;
+  border-radius: 40px;
+  text-align: center;
+  margin: 10px;
+ 
+}

@@ -18,48 +18,54 @@
             <a class="button" href="#">Készitők</a>
             <a class="button" href="#">Extra-panel</a>
         </nav>
-        <header>
-            <h1>Értékeljen minket!</h1>
-        </header>
-        <article>
-            <form>
-                <label for="vezeteknev">Vezetéknév:</label><br>
-                <input type="text" id="vezeteknev" name="vezeteknev" placeholder="Vezetéknév"><br>
-                <label for="lname">Keresztnév:</label><br>
-                <input type="text" id="keresztnev" name="keresztnev" placeholder="Keresztnév"><br>
+        <div class="flex1">
+            <div class="box1">
+                <header>
+                    <h1>Értékeljen minket!</h1>
+                </header>
+                <article>
+                    <form>
+                        <label for="vezeteknev">Vezetéknév:</label><br>
+                        <input type="text" id="vezeteknev" name="vezeteknev" placeholder="Vezetéknév"><br>
+                        <label for="lname">Keresztnév:</label><br>
+                        <input type="text" id="keresztnev" name="keresztnev" placeholder="Keresztnév"><br><br>
+                        <p>Hol érhetjük el Önt?</p>
+                        <label for="email">E-mail cím:</label><br>
+                        <input type="email" id="email" name="email" placeholder="valaki@info.hu"><br><br>
+                        <form action="/action_page.php" autocomplete="on">
+            </div>
+        </div>
+        <div class="flex2">
+            <div class="box2">
+                <textarea name="message" rows="10" cols="30"
+                    placeholder="Ide írhatja szöveges értékelését, megjegyzéseit."></textarea><br><br>
+            </div>
+        </div>
+        <div class="flex3">
+            <div class="box3">
+                <p>Kérlek add meg a korodat!</p>
+                <input type="radio" id="kor1" name="kor" value="12">
+                <label for="kor1"> 01 - 12</label><br>
+                <input type="radio" id="kor2" name="kor" value="20">
+                <label for="kor2">13 - 20</label><br>
+                <input type="radio" id="kor3" name="kor" value="25">
+                <label for="kor3">21 - 25</label><br>
+                <input type="radio" id="kor4" name="kor" value="30">
+                <label for="kor4">26 - 30</label><br>
+                <input type="radio" id="kor5" name="kor" value="30+">
+                <label for="kor5">30 - 99</label><br><br>
+                <input type="checkbox" id="adatkezeles" name="adatkezeles" value="adatkezeles_elfogadva">
+                <label for="adatkezeles"> Az <a href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation"
+                        target="_blank">adatkezelési</a> tájékozatatót megismertem és elfogadom</label><br>
+                <input type="checkbox" id="hirlevel" name="hirlevel" value="hirlevel">
+                <label for="hirlevel"> Feliratkozom a hírlevélre</label><br>
+                <br>
+                <input type="submit" value="Küldés"><br>
+                <br><br>
+            </div>
+        </div>
 
-                <p>Hol érhetjük el Önt?</p>
-                <label for="email">E-mail cím:</label><br>
-                <input type="email" id="email" name="email" placeholder="valaki@info.hu"><br>
-                <form action="/action_page.php" autocomplete="on">
-                    <textarea name="message" rows="10" cols="30"
-                        placeholder="Ide írhatja szöveges értékelését, megjegyzéseit."></textarea><br>
-                    <p>Kérlek add meg a korodat!</p>
-                    <input type="radio" id="kor1" name="kor" value="12">
-                    <label for="kor1">1 - 12</label><br>
-
-                    <input type="radio" id="kor2" name="kor" value="20">
-                    <label for="kor2">13 - 20</label><br>
-
-                    <input type="radio" id="kor3" name="kor" value="25">
-                    <label for="kor3">21 - 25</label><br>
-
-                    <input type="radio" id="kor4" name="kor" value="30">
-                    <label for="kor4">26 - 30</label><br>
-
-                    <input type="radio" id="kor5" name="kor" value="30+">
-                    <label for="kor5">30 - </label><br><br>
-
-                    <input type="checkbox" id="adatkezeles" name="adatkezeles" value="adatkezeles_elfogadva">
-                    <label for="adatkezeles"> Az <a href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation" target="_blank">adatkezelési</a> tájékozatatót megismertem és elfogadom</label><br>
-                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-                    <label for="vehicle2"> I have a car</label><br>
-                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-                    <label for="vehicle3"> I have a boat</label><br><br>
-
-                    <input type="submit" value="Küldés"><br>
-                    <br><br>
-                </form>
+        </form>
         </article>
         <footer></footer>
     </main>
