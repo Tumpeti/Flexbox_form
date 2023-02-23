@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /***body{
@@ -16,22 +17,35 @@ body{
     background-size: cover;
 }
 
-a{
-    color: rgb(65, 4, 41);
+  a{
     text-decoration: none;
-    font-weight: bold;
+    color: pink;
   }
 
   .button {
-    color: aliceblue;
-    background-color: rgb(66, 18, 18);
-    padding: 10px;
-    border-radius: 5px;
-  }
+    font-size:25px;
+    font-family: Franklin Gothic Medium;
+    width:140px;
+    height:50px;
+    border-width:1px;
+    color:rgba(37, 67, 109, 1);
+    border-color:#333333;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius:6px;
+    box-shadow:inset 0px 1px 0px 0px #fff6af;
+    text-shadow:inset 0px 1px 0px #ffee66;
+    background:linear-gradient(#ffec64, #ffab23);
+    
+  }         
+
   .button:hover{
-    background-color: pink;
+    background: linear-gradient(#ffab23, #ffec64);
     color: black;
+    cursor: pointer;
   }
+
 a{
     text-decoration: none;
 }
@@ -40,7 +54,7 @@ a{
     margin: auto;
   }
 
-main header h1, form {
+main h2, form, .box3 {
     color: rgb(233, 192, 221);
     text-shadow: rgb(143, 5, 97) 1px 1px;
 }
@@ -52,7 +66,24 @@ main header h1, form {
 
 .flex1{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+}
+
+.box0{
+  background-color: rgb(27, 221, 62);
+  width: 300px;
+  border-radius: 40px;
+  text-align: center;
+  margin: 10px;
+  justify-content: flex-end;
+  color: rgb(136, 244, 29);
+  text-shadow: rgb(233, 121, 0) 1px 1px;
+  font-size: 20px;
+}
+
+.box0 h2{
+  color: rgb(136, 244, 29);
+  text-shadow: rgb(233, 121, 0) 1px 1px;
 }
 
 .box1{
@@ -61,12 +92,25 @@ main header h1, form {
   border-radius: 40px;
   text-align: center;
   margin: 10px;
+  justify-content: flex-start;
 }
 
 .flex2{
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.box2_0{
+  background-color: rgb(216, 118, 19);
+  width: 300px;
+  border-radius: 40px;
+  text-align: center;
+  padding: 30px;
+  margin: 10px;
+  color: rgb(239, 162, 74);
+  text-shadow: rgb(180, 47, 3) 1px 1px;
+  font-size: 25px;
 }
 
 .box2{
@@ -92,6 +136,7 @@ main header h1, form {
   text-align: center;
   padding: 20px;
   margin: 10px;
+  font-size: 20px;
 }
 
 .box4{
@@ -101,4 +146,20 @@ main header h1, form {
   text-align: center;
   margin: 10px;
  
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: flex-end;
+  border:3px pink outset ;
+  padding: 5px;
+  background-color: black;
+  }
+
+li{
+  color: pink;
+  list-style: none;
+  border: 2px;
 }

@@ -13,32 +13,44 @@
 
 <body>
     <main>
-        <nav class="nav-bar">
-            <a class="button" href="#">Kezdőlap</a>
-            <a class="button" href="#">Készitők</a>
-            <a class="button" href="#">Extra-panel</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Főoldal</a></li>
+                <li><a href="#">Készítők</a></li>
+                <li><a href="urlap.html">Rózsaszín Űrlap</a></li>
+                <li><a href="#bottom">lap alja</a></li>
+            </ul>
         </nav>
         <div class="flex1">
             <div class="box1">
-                <header>
-                    <h1>Értékeljen minket!</h1>
-                </header>
+                <h2>Add meg az elérhetőségeidet:</h2><br>
                 <article>
                     <form>
                         <label for="vezeteknev">Vezetéknév:</label><br>
                         <input type="text" id="vezeteknev" name="vezeteknev" placeholder="Vezetéknév"><br>
                         <label for="lname">Keresztnév:</label><br>
                         <input type="text" id="keresztnev" name="keresztnev" placeholder="Keresztnév"><br><br>
-                        <p>Hol érhetjük el Önt?</p>
+
                         <label for="email">E-mail cím:</label><br>
                         <input type="email" id="email" name="email" placeholder="valaki@info.hu"><br><br>
                         <form action="/action_page.php" autocomplete="on">
             </div>
+            <div class="box0">
+                <h2>Értékelj minket!</h2><br><br>
+                <label for="ertekeles">Értékelj minket, mennyire tetszett a képregény:</label><br><br>
+                <input type="range" id="ertekeles" name="ertekeles" min="1" max="100">
+            </div>
         </div>
         <div class="flex2">
+            <div class="box2_0">
+                <label for="telefon">Add meg a telefonszámod:</label><br><br>
+                <input type="tel" id="telefon" name="telefon" placeholder="36-00-000-0000"
+                    pattern="[0-9]{2}-[0-9]{2}-[0-9]{3}-[0-9]{4}" required><br>
+                <small>Formátum: 36-00-000-0000</small><br><br>
+            </div>
             <div class="box2">
                 <textarea name="message" rows="10" cols="30"
-                    placeholder="Ide írhatja szöveges értékelését, megjegyzéseit."></textarea><br><br>
+                    placeholder="Milyen képregényeket olvasnál még szívesen? Írd meg bátran, várjuk válaszod!"></textarea><br><br>
             </div>
         </div>
         <div class="flex3">
@@ -56,12 +68,15 @@
                 <label for="kor5">30 - 99</label><br><br>
                 <input type="checkbox" id="adatkezeles" name="adatkezeles" value="adatkezeles_elfogadva">
                 <label for="adatkezeles"> Az <a href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation"
-                        target="_blank">adatkezelési</a> tájékozatatót megismertem és elfogadom</label><br>
+                        target="_blank"><strong>adatkezelési</strong></a> tájékozatatót megismertem és
+                    elfogadom</label><br>
                 <input type="checkbox" id="hirlevel" name="hirlevel" value="hirlevel">
                 <label for="hirlevel"> Feliratkozom a hírlevélre</label><br>
-                <br>
-                <input type="submit" value="Küldés"><br>
-                <br><br>
+              
+            </div>
+            <div class="box4">
+                <br><br><br><br><br><br><br>
+                <input class="button" type="submit" value="Küldés">
             </div>
         </div>
 
