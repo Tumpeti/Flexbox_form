@@ -11,10 +11,15 @@
     background-size: cover;
 }***/
 
-body {
-  background-image: url(kepek/background3.jpg);
-  background-repeat: repeat;
+main{
+  background-image: url(./kepek/formbackground.png);
+  background-repeat: no-repeat;
   background-size: cover;
+}
+
+body {
+  background: rgb(240,108,171);
+  background: linear-gradient(90deg, rgba(240,108,171,1) 0%, rgba(253,29,29,1) 50%, rgba(240,227,50,1) 100%); 
 }
 
 a {
